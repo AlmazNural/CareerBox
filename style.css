@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.container{
+    max-width: 1413px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body{
+    background: #0D2228;
+
+}
+/* Header */
+.header{
+    height: 104px;
+    background: rgba(13, 34, 40, 0.3);
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__link {
+    margin-left: 42px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__btn{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+/* Career */
+
+.career{
+    height: 794px;
+    background: rgba(0, 1, 1, 0.33);
+}
+.career__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 206px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #D1FF5D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 102px ;
+}
+.career__line {
+    width: 400px;
+    border: 1px solid #D1FF5D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 41px;
+}
+.career__info{  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 85px;
+}
+
+.savings__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 325px;
+}
+
+.saving__box{
+    width: 222px;
+    height: 142px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4.38304px);
+    border-radius: 6.53059px;
+
+}
+
+.cost__saving-img{
+    padding: 14px 64px 7px;
+}
+.access__talent-img{
+    padding: 14px 60px 0px;
+}
+.time__savings-img{
+    padding: 11px 48px 5px;
+    
+}
+
+.cost__saving-info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* about */
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__logo{
+    position: relative;
+    float: right;
+   
+}
+
+.about__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 130px;
+    line-height: 118px;
+    text-transform: uppercase;
+    color: #D1FF5D;
+    z-index: 1;
+    padding-top: 100px;
+    float: top;
+    
+}
+
+.about__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    
+}
+
+.about__line {
+    width: 743px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.about__foto{
+    margin: 194px 93px 187px ;
+
+}
+
+.about__teams{
+    float: right;
+    width: 453px;
+    margin-left: 100px;
+    -webkit-box-shadow: 40px -7px 100px 100px rgba(85, 201, 13, 0.17);
+-moz-box-shadow: 40px -7px 100px 100px rgba(85, 201, 13, 0.17);
+box-shadow: 40px -7px 100px 100px rgba(85, 201, 13, 0.17);
+}
+
+.about__wr__teams{
+    float: left;
+    width: 503px;
+    margin-right: -200%;
+    padding-top: 33%; 
+    position: relative;
+    z-index: 1;
+   
+}
+
